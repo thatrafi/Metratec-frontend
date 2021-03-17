@@ -7,6 +7,14 @@ a {
     color: #ee7117;
 }
 
+.login-logo {
+  margin-top: 0px;
+}
+
+.login-logo img{
+  height: 320px;
+}
+
 .navbar-darkorange{
     background-color: #e9540d;
 }
@@ -26,3 +34,11 @@ a {
     border-top: 3px solid #e9540d;
   }
 
+  @media (max-width: 575.98px) { 
+    .login-logo {
+      margin-top: 150px;
+    }
+    .login-logo img{
+      height: 200px;
+    }
+  }
