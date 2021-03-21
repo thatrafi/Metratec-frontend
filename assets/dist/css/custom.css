@@ -1,3 +1,4 @@
+/* OVERALL LOOK AND FEEL */
 body {
     font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color: #373736;
@@ -7,6 +8,8 @@ a {
     color: #ee7117;
 }
 
+/* Logo in Sidebar Custom CSS */
+
 .login-logo {
   margin-top: 0px;
 }
@@ -15,25 +18,36 @@ a {
   height: 320px;
 }
 
+/* Navbar color change */
+
 .navbar-darkorange{
     background-color: #e9540d;
 }
+
+/* Side Bar */
 
 .sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
     background-color: #ee7117;
     color: #fff;
 }
 
+/* Button Color change */
+
 .btn-primary {
     color: #fff;
     background-color: #ee7117;
     border-color: #ee7117;
   }
-
+/* CARD */
   .card-primary.card-outline {
     border-top: 3px solid #e9540d;
   }
-
+/* CARD NAV CHANGE */
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #ee7117;
+}
+/* IF IN MOBILE DEVICE */
   @media (max-width: 575.98px) { 
     .login-logo {
       margin-top: 80px;
